@@ -47,3 +47,4 @@ def test_reg_from():
     )
 
     browser.element('#closeLargeModal').press_enter()
+    # изменения

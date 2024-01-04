@@ -23,7 +23,7 @@ def test_reg_form():
     browser.element('#react-select-3-input').type('Uttar Pradesh').press_enter()
     browser.element('#react-select-4-input').type('Merrut').press_enter()
 
-    browser.element('#uploadPicture').send_keys(os.path.abspath('picture1.jpeg'))
+    browser.element('#uploadPicture').send_keys(os.path.abspath('../resources/picture1.jpeg'))
     browser.element('#submit').press_enter()
 
 
